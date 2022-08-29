@@ -5,9 +5,10 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ArtistItemsComponent } from './artist-items/artist-items.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ArtistItemsComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
