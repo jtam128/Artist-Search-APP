@@ -7,9 +7,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ArtistItemsComponent } from './artist-items/artist-items.component';
 import { SearchArtistsPipe } from './search-artists.pipe';
+import { ArtistDetailsComponent } from './artist-details/artist-details.component';
 
 @NgModule({
-  declarations: [AppComponent, ArtistItemsComponent, SearchArtistsPipe],
+  declarations: [AppComponent, ArtistItemsComponent, SearchArtistsPipe, ArtistDetailsComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
