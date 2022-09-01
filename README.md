@@ -4,6 +4,8 @@ Artist-Search is a website I built while following along with Ray Villalobos' co
 
 While building this website, I learned about several features of the Angular framework. Those include the Angular CLI, declarative templates, data-binding, lifecycle methods, and the Angular pipe.
 
+[Live Link](https://artistsearch.vercel.app/)
+
 ## Screenshots
 
 When you search for a particular person, their name pops up in a list. You click on that name.
